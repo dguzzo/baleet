@@ -1,7 +1,5 @@
 var express = require('express');
 var app = express();
-var Converter = require('csvtojson').Converter;
-var converter = new Converter({});
 var Twitter = require('twitter');
 var keys = require("./keys.js");
 var fs = require("fs");
